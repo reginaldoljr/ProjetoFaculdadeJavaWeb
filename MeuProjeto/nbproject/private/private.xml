@@ -3,7 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/reginaldo/Desktop/MeuProjeto/MeuProjeto/src/java/br/com/exemplo/projeto/controller/campanha/CampanhaExcluir.java</file>
+            <file>file:/C:/Users/reginaldo/Desktop/MeuProjeto/MeuProjeto/web/login.jsp</file>
+            <file>file:/C:/Users/reginaldo/Desktop/MeuProjeto/MeuProjeto/web/cadastros/campanha/campanha.jsp</file>
+            <file>file:/C:/Users/reginaldo/Desktop/MeuProjeto/MeuProjeto/src/java/br/com/exemplo/projeto/utils/ConnectionFactory.java</file>
+            <file>file:/C:/Users/reginaldo/Desktop/MeuProjeto/MeuProjeto/src/java/br/com/exemplo/projeto/controller/controlesessao/LogarVoluntario.java</file>
+            <file>file:/C:/Users/reginaldo/Desktop/MeuProjeto/MeuProjeto/web/indexlogado.jsp</file>
         </group>
     </open-files>
 </project-private>

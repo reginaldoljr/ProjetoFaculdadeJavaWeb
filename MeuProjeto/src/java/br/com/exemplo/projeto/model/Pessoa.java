@@ -10,29 +10,19 @@ package br.com.exemplo.projeto.model;
  * @author reginaldo
  */
 public class Pessoa {
-    private int idPessoa;
-    private String nomePessoa;
-    private String cpf_cnpj;
-    private String tipoPessoa;
-    private String email;
-    private String senha;
+    public String nomePessoa;
+    public String cpf_cnpj;
+    public String tipoPessoa;
+    public String emailusuario;
+    public String senhausuario;
 
     
-    public Pessoa(int idPessoa, String nomePessoa, String cpf_cnpj, String tipoPessoa, String  email, String senha) {
-        this.idPessoa = idPessoa;
+    public Pessoa(String nomePessoa, String cpf_cnpj, String tipoPessoa, String  emailusuario, String senhausuario) {
         this.nomePessoa = nomePessoa;
         this.cpf_cnpj = cpf_cnpj;
         this.tipoPessoa = tipoPessoa;
-        this.email = email;
-        this.senha = senha;
-    }
-
-    public int getIdPessoa() {
-        return idPessoa;
-    }
-
-    public void setIdPessoa(int idPessoa) {
-        this.idPessoa = idPessoa;
+        this.emailusuario = emailusuario;
+        this.senhausuario = senhausuario;
     }
 
     public String getNomePessoa() {
@@ -59,20 +49,20 @@ public class Pessoa {
         this.tipoPessoa = tipoPessoa;
     }
 
-    public String getEmail() {
-        return email;
+    public String getEmailUsuario() {
+        return emailusuario;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setEmailUsuario(String email) {
+        this.emailusuario = emailusuario;
     }
 
-    public String getSenha() {
-        return senha;
+    public String getSenhaUsuario() {
+        return senhausuario;
     }
 
-    public void setSenha(String senha) {
-        this.senha = senha;
+    public void setSenhaUsuario(String senha) {
+        this.senhausuario = senhausuario;
     }
     
 }
